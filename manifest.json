@@ -1,0 +1,43 @@
+{
+  "note": "Concatenation order of src/ modules into the single <script> of the built page. Files share one script scope (no imports/exports yet).",
+  "styles": [
+    "styles/app.css"
+  ],
+  "scripts": [
+    "app/prelude.js",
+    "config/env.js",
+    "config/brand.js",
+    "config/hardware.js",
+    "config/pricing.js",
+    "config/payments.js",
+    "config/stations.js",
+    "i18n/en.js",
+    "lib/format.js",
+    "data/phones.js",
+    "domain/index.js",
+    "domain/card.js",
+    "lib/clock.js",
+    "lib/storage.js",
+    "lib/session.js",
+    "lib/api/provider.js",
+    "integrations/wdian.js",
+    "lib/services.js",
+    "ui/icons.js",
+    "ui/components.js",
+    "app/state.js",
+    "ui/screens/_registry.js",
+    "ui/screens/entry.js",
+    "ui/screens/payment.js",
+    "ui/screens/processing.js",
+    "ui/screens/ready.js",
+    "ui/screens/active.js",
+    "ui/screens/return.js",
+    "ui/screens/done.js",
+    "ui/screens/closed.js",
+    "ui/screens/help.js",
+    "ui/screens/error.js",
+    "app/router.js",
+    "app/dev.js",
+    "app/boot.js"
+  ]
+}
