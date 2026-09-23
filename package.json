@@ -1,0 +1,12 @@
+{
+  "name": "batteryhub-customer-webapp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "BatteryHub customer web app (power-bank rental, Thailand pilot). Mobile-first, no-app rental flow.",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "check": "node build.mjs --check"
+  },
+  "engines": { "node": ">=18" }
+}
